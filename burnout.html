@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>It burnout</title>
+</head>
+
+<body>
+
+    <div class="cover" id="cover">
+        <div class="usermanual" id="usermanual">
+            <p>Pred Vama se nalazi uputnik za procenu sindroma izgaranja na radu. Potrebno je da razmislite o proteklih 12
+                meseci Vašeg života i ocenite da li ste primetili neke promene. Vaš odgovor unesite zaokružujući jedno od navedenih polja pri čemu Vaši odgovori mogu biti: <br> <br>
+                - nema promene <br> - jedva primetna promena
+                <br> - primetna promena <br> - mali stepen promene i <br> - veliki stepen promene
+            </p>
+            <p>Kada budete spremni, klikom na ikonicu ispod započnite popunjavanje upitnika...</p>
+            <a href="#questionnaire"><i class="far fa-question-circle fa-2x"></i></i></a>
+        </div>
+        
+       </div>
+
+    <!------------------------------Pitanja--------------------------------------->
+    <!------------------------------Pitanja--------------------------------------->
+      
+    <form class="questionnaire" id="questionnaire">
+        <div class="questions">
+            <p>1. Da li ste više nego uobičajeno malaksali, umorni ili iscrpljeni na kraju dana?</p>
+                <div>
+                    <input type="radio" id="q1" name="question1" value="1" checked>
+                    <label for="q1">Nema promene</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q1" name="question1" value="2">
+                    <label for="q1">Jedva primetna promena</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q1" name="question1" value="3">
+                    <label for="q1">Primetna promena</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q1" name="question1" value="4">
+                    <label for="q1">Mali stepen promene</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q1" name="question1" value="5">
+                    <label for="q1">Veliki stepen promene</label><br>
+                </div>
+        </div>
+        <div class="questions">
+            <p>2. Da li ste izgubili interesovanje za ono što radite? </p>
+            <div>
+                <input type="radio" id="q2" name="question2" value="1" checked>
+                <label for="q2">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q2" name="question2" value="2">
+                <label for="q2">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q2" name="question2" value="3">
+                <label for="q2">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q2" name="question2" value="4">
+                <label for="q2">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q2" name="question2" value="5">
+                <label for="q2">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>3. Da li ste primetili da se Vaša ambicija smanjila u pogledu poslovnog napredovanja?</p>
+            <div>
+                <input type="radio" id="q3" name="question3" value="1" checked>
+                <label for="q3">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q3" name="question3" value="2">
+                <label for="q3">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q3" name="question3" value="3">
+                <label for="q3">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q3" name="question3" value="4">
+                <label for="q3">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q3" name="question3" value="5">
+                <label for="q3">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>4. Da li primećujete da Vam lako postane dosadno?</p>
+            <div>
+                <input type="radio" id="q4" name="question4" value="1" checked>
+                <label for="q4">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q4" name="question4" value="2">
+                <label for="q4">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q4" name="question4" value="3">
+                <label for="q4">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q4" name="question4" value="4">
+                <label for="q4">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q4" name="question4" value="5">
+                <label for="q4">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>5. Da li primećujete da ste postali pesimističniji,kritičniji, ili ciničniji prema sebi i drugima?</p>
+            <div>
+                <input type="radio" id="q5" name="question5" value="1" checked>
+                <label for="q5">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q5" name="question5" value="2">
+                <label for="q5">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q5" name="question5" value="3">
+                <label for="q5">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q5" name="question5" value="4">
+                <label for="q5">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q5" name="question5" value="5">
+                <label for="q5">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>6. Da li zaboravljate sastanke, rokove ili važne aktivnosti, a da se zbog toga ne brinete?</p>
+            <div>
+                <input type="radio" id="q6" name="question6" value="1" checked>
+                <label for="q6">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q6" name="question6" value="2">
+                <label for="q6">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q6" name="question6" value="3">
+                <label for="q6">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q6" name="question6" value="4">
+                <label for="q6">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q6" name="question6" value="5">
+                <label for="q6">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>7.Da li se povlačite od prijatelja i članova porodice, i više vremena provodite u samoći??</p>
+            <div>
+                <input type="radio" id="q7" name="question7" value="1" checked>
+                <label for="q7">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q7" name="question7" name="question7" value="2">
+                <label for="q7">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q7" name="question7" value="3">
+                <label for="q7">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q7" name="question7" value="4">
+                <label for="q7">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q7" name="question7" value="5">
+                <label for="q7">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>8. Da li primećujete da se Vaš prag osetljivosti, neprijateljstva ili agresivnosti povećao?</p>
+            <div>
+                <input type="radio" id="q8" name="question8" value="1" checked>
+                <label for="q8">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q8" name="question8" value="2">
+                <label for="q8">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q8" name="question8" value="3">
+                <label for="q8">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q8" name="question8" value="4">
+                <label for="q8">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q8" name="question8" value="5">
+                <label for="q8">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>9. Da li je Vaš smisao za humor postao nerazumljiv Vama ili drugima?</p>
+            <div>
+                <input type="radio" id="q9" name="question9" value="1" checked>
+                <label for="q9">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q9" name="question9" value="2">
+                <label for="q9">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q9" name="question9" value="3">
+                <label for="q9">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q9" name="question9" value="4">
+                <label for="q9">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q9" name="question9" value="5">
+                <label for="q9">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>10. Da li ste skloni razboljevanju (grip, prehlada…)?</p>
+            <div>
+                <input type="radio" id="q10" name="question10" value="1" checked>
+                <label for="q10">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q10" name="question10" value="2">
+                <label for="q10">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q10" name="question10" value="3">
+                <label for="q10">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q10" name="question10" value="4">
+                <label for="q10">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q10" name="question10" value="5">
+                <label for="q10">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>11. Da li imate glavobolje češće nego obično?</p>
+            <div>
+                <input type="radio" id="q11" name="question11" value="1" checked>
+                <label for="q11">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q11" name="question11" value="2">
+                <label for="q11">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q11" name="question11" value="3">
+                <label for="q11">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q11" name="question11" value="4">
+                <label for="q11">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q11" name="question11" value="5">
+                <label for="q11">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>12. Da li patite od gastrointestinalnih problema?</p>
+            <div>
+                <input type="radio" id="q12" name="question12" value="1" checked>
+                <label for="q12">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q12" name="question12" value="2">
+                <label for="q12">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q12" name="question12" value="3">
+                <label for="q12">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q12" name="question12" value="4">
+                <label for="q12">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q12" name="question12" value="5">
+                <label for="q12">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>13. Da li se uglavnom budite umorni i iscrpljeni?</p>
+            <div>
+                <input type="radio" id="q13" name="question13" value="1" checked>
+                <label for="q13">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q13" name="question13" value="2">
+                <label for="q13">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q13" name="question13" value="3">
+                <label for="q13">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q13" name="question13" value="4">
+                <label for="q13">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q13" name="question13" value="5">
+                <label for="q13">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>14. Da li primećujete da namerno izbegavate ljude koji Vam ranije nisu smetali kada su u Vašem okružnju?
+            </p>
+            <div>
+                <input type="radio" id="q14" name="question14" value="1" checked>
+                <label for="q14">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q14" name="question14" value="2">
+                <label for="q14">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q14" name="question14" value="3">
+                <label for="q14">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q14" name="question14" value="4">
+                <label for="q14">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q14" name="question14" value="5">
+                <label for="q14">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>15. Da li ste primetili smanjenje seksualne želje?</p>
+            <div>
+                <input type="radio" id="q15" name="question15" value="1" checked>
+                <label for="q15">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q15" name="question15" value="2">
+                <label for="q15">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q15" name="question15" value="3">
+                <label for="q15">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q15" name="question15" value="4">
+                <label for="q15">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q15" name="question15" value="5">
+                <label for="q15">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>16. Da li smatrate da ste postali neosetljivi prema drugim ljudima?</p>
+            <div>
+                <input type="radio" id="q16" name="question16" value="1" checked>
+                <label for="q16">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q16" name="question16" value="2">
+                <label for="q16">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q16" name="question16" value="3">
+                <label for="q16">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q16" name="question16" value="4">
+                <label for="q16">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q16" name="question16" value="5">
+                <label for="q16">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>17. Da li osećate kao da niste od koristi na poslu, i da je svaki pokušaj promene uzaludan i bezuspešan?
+            </p>
+            <div>
+                <input type="radio" id="q17" name="question17" value="1" checked>
+                <label for="q17">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q17" name="question17" value="2">
+                <label for="q17">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q17" name="question17" value="3">
+                <label for="q17">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q17" name="question17" value="4">
+                <label for="q17">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q17" name="question17" value="5">
+                <label for="q17">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>18. Da li osećate da Vam se ne dešava ništa lepo u privatnom životu, da ste izgubili spontanost u onome
+                sto radite?</p>
+                <div>
+                    <input type="radio" id="q18" name="question18" value="1" checked>
+                    <label for="q18">Nema promene</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q18" name="question18" value="2">
+                    <label for="q18">Jedva primetna promena</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q18" name="question18" value="3">
+                    <label for="q18">Primetna promena</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q18" name="question18" value="4">
+                    <label for="q18">Mali stepen promene</label><br>
+                </div>
+                <div>
+                    <input type="radio" id="q18" name="question18" value="5">
+                    <label for="q18">Veliki stepen promene</label><br>
+                </div>
+        </div>
+        <div class="questions">
+            <p>19. Da li svakodnevno puno razmišljate ili brinete o svom poslu ili ljudima, prošlosti i budućnosti?</p>
+            <div>
+                <input type="radio" id="q19" name="question19" value="1" checked>
+                <label for="q19">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q19" name="question19" value="2">
+                <label for="q19">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q19" name="question19" value="3">
+                <label for="q19">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q19" name="question19" value="4">
+                <label for="q19">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q19" name="question19" value="5">
+                <label for="q19">Veliki stepen promene</label><br>
+            </div>
+        </div>
+        <div class="questions">
+            <p>20. Da li osećate da ste na ivici sloma?</p>
+            <div>
+                <input type="radio" id="q20" name="question20" value="1" checked>
+                <label for="q20">Nema promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q20" name="question20" value="2">
+                <label for="q20">Jedva primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q20" name="question20" value="3">
+                <label for="q20">Primetna promena</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q20" name="question20" value="4">
+                <label for="q20">Mali stepen promene</label><br>
+            </div>
+            <div>
+                <input type="radio" id="q20" name="question20" value="5">
+                <label for="q20">Veliki stepen promene</label><br>
+            </div>
+        </div> <br>
+
+        <div class="modalOutput" id="modalOutput">
+            <div class="modal">
+                <div class="closeDiv">
+                    <span class="closeButton">&times;</span>
+                </div>
+                <div class="header">
+                    <p class="score" id="score"></p>
+                </div>
+                <div>
+                    <p class="showAdwice" id="showAdwice"></p>
+                </div>
+            </div>
+        </div>
+
+        <input id="formSubmit" type="submit" value="Predaj odgovore">
+    </form>
+
+    
+
+    <script type="module" src="burnoutApp.js"></script>
+</body>
+
+</html>

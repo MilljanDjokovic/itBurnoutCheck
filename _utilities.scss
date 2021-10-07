@@ -1,0 +1,45 @@
+/******************** VARS ********************/
+
+$baseFont: 1.3rem;
+
+
+
+/******************** MIXINS ********************/
+
+@mixin divPosition {
+    mdisplay: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.904);
+   }
+
+  @mixin divPositionQuery {
+    mdisplay: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 1rem auto 0 auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.904);
+  }
+
+  @mixin button {
+      display: inline-flex;
+      padding: 0.5rem;
+      font-size: 1rem;
+      text-decoration: none;
+      outline: none;
+      border-radius: 5px;
+      border: 2px solid #ffa500;
+      margin-bottom: 1rem;
+      cursor: pointer;
+      color: rgba(255, 255, 255, 0.904);
+      background-color: rgba(41, 41, 41, 0.575);
+      &:hover {
+        transform: scale(0.95);
+        transition-duration: 0.2s;
+      }
+  }
+
+  
